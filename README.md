@@ -14,8 +14,10 @@ p(A,f(t))
 q(z),~p(z,f(B))  
 ~q(y),r(y)  
 ~r(A)  
+  
 Represents the universe :  
-KB = p(A,f(t)) AND (q(z) OR ~p(z,f(B))) AND (~q(y) OR r(y)) , G = ~r(A)  
+KB = p(A,f(t)) AND (q(z) OR ~p(z,f(B))) AND (~q(y) OR r(y))  
+G = ~r(A)  
 
 # Output:  
 "Resolution Steps"  
