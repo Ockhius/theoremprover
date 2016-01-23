@@ -4,13 +4,8 @@ Resoulution Refutation on FOL (First Order Predicate Logic)
 Input:  
 "Number of task to solve"  
 "n:Number of clauses in base set(KB) m:Number of clauses in goal set(G)"  
-"KB Clauses ....  
-.....  
-.....  
-..... (Line n+1)  
-G Clauses .....   
-.....   
-..... (Line m+n+1)"  
+"KB Clauses (Line n+1)  
+G Clauses (Line m+n+1)"  
 
 Example input:  
 1  
@@ -23,10 +18,7 @@ Represents the universe :
 KB = p(A,f(t)) AND (q(z) OR ~p(z,f(B))) AND (~q(y) OR r(y)) , G = ~r(A)  
 
 Output:  
-"Resolution Steps .....  
-.....  
-.....  
-....."  
+"Resolution Steps"  
 "Is it Derivable : YES or NO"  
 
 Example Output:  
