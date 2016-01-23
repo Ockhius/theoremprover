@@ -28,6 +28,7 @@ p(A,f(t))$q(z),~p(z,f(B))$q(A)
 q(A)$~q(y),r(y)$r(A)  
 r(A)$~r(A)$empty_clause  
 YES  
-
+  
+Each clause are separated with $ sign. First two clause are resolved to the third one in each resolution step.  
 Shows the resoulution steps in each row.  
 Prover returns the theorem is derivable or not in last line of the output.txt.  
